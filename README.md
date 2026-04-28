@@ -1,4 +1,11 @@
-- CASA spectral line tutorial for the NRAO Synthesis Imaging Workshop (2026).
+This repository contains a Jupyter notebook tutorial for manual calibration and
+imaging of VLA Ka-band (36 GHz) spectral line data, created for the NRAO
+Synthesis Imaging Workshop (SIW) in 2026. The tutorial walks through reduction
+of a D-array observation of the AGB star IRC+10216 (CW Leo), demonstrating
+detection of the SiS J=2-1 and HC3N J=4-3 rotational transitions. It covers
+all steps of manual calibration from importing the data, bandpas and gain
+calibratio, continuum subtraction, and imaging the spectral line data cubes
+with `tclean`.
 
 Installation
 ------------
@@ -38,4 +45,5 @@ export UV_DATA_DIR=<path>/<to>/uv-data
 
 License
 -------
-Copyright Brian Svoboda (2026) under the General Public License (GPL) version 3 license.
+Copyright Brian Svoboda (2026) under the GNU General Public License (GPL)
+version 3 license. A copy of the license can be found in the file `LICENSE`.
