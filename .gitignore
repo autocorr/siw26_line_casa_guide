@@ -8,6 +8,3 @@ wheels/
 
 # Virtual environments
 .venv
-
-# Directory for CASA guide wiki text
-docs

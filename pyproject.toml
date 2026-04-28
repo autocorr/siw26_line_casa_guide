@@ -9,5 +9,6 @@ dependencies = [
     "casaplotms>=2.9.1",
     "casatasks>=6.7.5.18",
     "casatools>=6.7.5.18",
+    "jupyter>=1.1.1",
     "matplotlib>=3.10.9",
 ]
