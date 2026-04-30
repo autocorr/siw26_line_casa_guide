@@ -25,12 +25,20 @@ relevant examples of calibrating and imaging VLA data using CASA.
 A human-readable summary of all five wiki files (content, key procedures, and
 important caveats extracted from each) is at `docs/summary.txt`.
 
-## Environment setup
+## Commands
 
-This project uses `uv` for dependency management with Python 3.13.
+To validate changes to the Jupyter notebook, use:
 
 ```bash
-uv venv --python=3.13
+uv run nbqa pyflakes siw26_line_casa_guide.ipynb
+```
+
+## Environment setup
+
+This project uses `uv` for dependency management with Python 3.12.
+
+```bash
+uv venv --python=3.12
 source .venv/bin/activate
 uv sync
 ```

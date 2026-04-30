@@ -8,3 +8,6 @@ wheels/
 
 # Virtual environments
 .venv
+
+# CASA log files
+casa*.log

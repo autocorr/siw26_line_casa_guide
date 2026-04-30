@@ -24,7 +24,7 @@ cd siw26_line_casa_guide
 ```
 and use `uv` to create an environment and install the necessary dependencies:
 ```bash
-uv venv --python=3.13
+uv venv --python=3.12
 source .venv/bin/activate
 uv sync  # install libraries and versions from `uv.lock`
 ```
