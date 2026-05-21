@@ -1,11 +1,11 @@
 This repository contains a Jupyter notebook tutorial for manual calibration and
 imaging of VLA Ka-band (36 GHz) spectral line data, created for the NRAO
 Synthesis Imaging Workshop (SIW) in 2026. The tutorial walks through reduction
-of a D-array observation of the AGB star IRC+10216 (CW Leo), demonstrating
-detection of the SiS J=2-1 and HC3N J=4-3 rotational transitions. It covers
-all steps of manual calibration from importing the data, bandpas and gain
-calibratio, continuum subtraction, and imaging the spectral line data cubes
-with `tclean`.
+of a D-array observation of the the SiS J=2-1 and HC3N J=4-3 rotational
+transitions toward the AGB star IRC+10216 (CW Leo). It covers all steps of
+manual calibration from importing the data, bandpass and gain calibration,
+continuum subtraction, and imaging the spectral line data cubes with
+`tclean`/`iclean`.
 
 Installation
 ------------
