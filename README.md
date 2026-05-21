@@ -17,7 +17,7 @@ already, you can install from the command line with:
 curl -LsSf https://astral.sh/uv/install.sh | sh
 source $HOME/.local/bin/env
 ```
-Now, either download the repository by clicking the greeb "Code" button in the
+Now, either download the repository by clicking the green "Code" button in the
 upper right of the GitHub page and selecting "Download ZIP" or clone the
 repository directly using the commands below:
 ```bash
