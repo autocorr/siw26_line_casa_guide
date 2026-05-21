@@ -44,7 +44,6 @@ If you don't have `uv` installed already, you can install from the command line
 by running:
 
 ```bash
-# Install `uv` if it's not already installed.
 curl -LsSf https://astral.sh/uv/install.sh | sh
 source $HOME/.local/bin/env
 ```
