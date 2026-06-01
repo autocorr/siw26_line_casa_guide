@@ -5,7 +5,8 @@ of a D-array observation of the the SiS J=2-1 and HC3N J=4-3 rotational
 transitions toward the AGB star IRC+10216 (CW Leo). It covers all steps of
 manual calibration from importing the data, bandpass and gain calibration,
 continuum subtraction, and imaging the spectral line data cubes with
-`tclean`/`iclean`.
+`tclean`/`iclean`. This tutorial is based off of the
+[IRC+10216 CASA Guide](https://casaguides.nrao.edu/index.php/VLA_high_frequency_Spectral_Line_tutorial_-_IRC%2B10216-CASA6.7.2).
 
 Installation
 ------------
